@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: linear-gradient(to right, #353535, #991155);
+}
+.resume {
+  padding: 20px 80px;
+  position: sticky;
+}
+.resume .left {
+  color: white;
+}
+img {
+  margin: 0 20px;
+  width: 100%;
+  height: 20%;
+}
+.content {
+  background-color: black;
+  width: 100%;
+  height: 75%;
+
+  margin: 0px 20px;
+  padding: 10px 5px;
+}
+.name {
+  position: sticky;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 70px;
+}
+.name h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.icons .adress {
+  padding-bottom: 40px;
+}
+.icons .phone {
+  padding-bottom: 40px;
+}
+.icons .email {
+  padding-bottom: 40px;
+}
+.icons i {
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.icons::after {
+  content: "";
+  position: absolute;
+  padding: 0;
+  width: 320px;
+  height: 3px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills {
+  padding-top: 20px;
+}
+.skills h3 {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.skills .container {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.skills .bars {
+  margin-bottom: 2px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills .container {
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+.skills .container .line {
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+  position: relative;
+}
+
+.skills .container .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+.skills .container .html::before {
+  width: 80%;
+}
+.skills .container .css::before {
+  width: 65%;
+}
+.skills .container .java::before {
+  width: 60%;
+}
+.skills .container .ux::before {
+  width: 55%;
+}
+
+.skills::after {
+  content: "";
+  position: absolute;
+  padding: 0;
+  width: 330px;
+  height: 3px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social {
+  padding: 40px 20px;
+}
+.social h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.social .icon {
+  padding-top: 30px;
+}
+.social .icon i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.social .icon .facebook {
+  padding-bottom: 30px;
+}
+.social .icon .twit {
+  padding-bottom: 30px;
+}
+.social .icon .insta {
+  padding-bottom: 30px;
+}
+.social .icon .link {
+  padding-bottom: 30px;
+}
+.social .icon .git {
+  padding-bottom: 30px;
+}
+.about {
+  background-color: white;
+  color: black;
+  position: sticky;
+  justify-content: center;
+  margin-bottom: 74px;
+}
+.about .me {
+  padding: 20px 20px;
+}
+.about .me h3 {
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.about .me p {
+  padding-bottom: 20px;
+}
+.about .me::after {
+  content: "";
+  position: absolute;
+  padding: 0;
+  width: 700px;
+  height: 2px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edu h3 {
+  padding-bottom: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.con {
+  padding-left: 40px;
+  align-items: center;
+}
+.con::after {
+  content: "";
+  position: absolute;
+  padding: 0;
+  width: 700px;
+  height: 2px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.con ul li {
+  justify-content: space-between;
+  padding-top: 20px;
+}
